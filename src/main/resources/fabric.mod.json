@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "soulpressure",
+  "version": "${version}",
+  "name": "Soul Pressure | 魂壓",
+  "description": "Two gravity-like gray soul pressure abilities with immobilization and one-hit defeats.",
+  "authors": ["Community project"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["tw.soulpressure.SoulPressureMod"],
+    "client": ["tw.soulpressure.SoulPressureClient"]
+  },
+  "mixins": ["soulpressure.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
